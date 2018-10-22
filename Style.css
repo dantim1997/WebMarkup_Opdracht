@@ -1,0 +1,28 @@
+body{
+	font-family: "Arial", serif;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.icon {
+  display: none;
+}
+
+/* For pc and tablet*/
+@media only screen and (max-width: 360px) {
+  .navbar a:not(:last-child) {display: none;}
+  .body{background-color: red;}
+  .icon {
+    float: left;
+    display: block;
+  }
+  .navlinks{
+  	display: none;
+  }
+}
