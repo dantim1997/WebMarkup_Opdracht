@@ -1,0 +1,3 @@
+student name : Tim Gras
+student number : 630259
+student class : INF1sA
