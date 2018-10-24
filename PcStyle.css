@@ -36,13 +36,15 @@
 
 	#footer{
 		width: 100%;
-		height: 30pt;
-		margin: auto;
+		height: 50px;
 		background-color: #000000;
 		color: #ffffff;
 		text-align: center;
+		padding-top: 10px;
 		font-size: 2em;
 		float: left;
+		border: solid 1px;
+		border-color: #FFFFFF;
 	}
 
 	.page {
@@ -59,9 +61,12 @@
 	}
 
 	.grid{
+		float: left;
 		background-color: #ffffff;
 		width: 100%;
-		height: 1000px;
+		height: 860px;
+		border: solid 1px;
+		border-color: #AAAAAA;
 	}
 
 	.image{
@@ -76,13 +81,18 @@
 	   	overflow: hidden;
 	}
 
-	.gridimage{
+	.gridcolumn{
 		float: left;
-		width: 32%;
+		width: 290px;
 		height: 200px;
 		margin-top: 10px;
 		margin-left: 10px;
+		border: solid 1px;
+		border-color: #AAAAAA;
+	}
 
+	.gridimage{
+		height: 100%;
 	}
 
 	.bannerimage{
@@ -96,8 +106,8 @@
 	}
 
 	.form{
-		width: 80%;
-		margin-left: 10%;
+		width: 81%;
+		margin-left: 9%;
 	}
 
 	#navbar{
@@ -120,27 +130,25 @@
 
 	}
 
-	.centerright{
+	.dropdown{
 		float: right;
 		width: 60%;
-		color: #AAAAAA;
 		font-size: 1em;
+		font-family: "Arial", serif;
+		color: #AAAAAA;
+		font-size: 2em;
 		font-family: "Arial", serif;
 	}
 
 	.contactFormFieldset{
-		color: #AAAAAA;
-		font-size: 2em;
 		font-family: "Arial", serif;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	.input{
 		color: #AAAAAA;
-		font-size: 1em;
-		outline: none;
+		font-size: 2em;
 		font-family: "Arial", serif;
-		border-width:0px;
 		border:none;
 	}
 
@@ -176,6 +184,8 @@
 	   	text-align: center;
 	   	font-family: "Arial", serif;
 	   	vertical-align: middle;
+	   	border: solid 1px;
+	   	border-color: #FFFFFF;
 	}
 
 	#product1{
@@ -272,5 +282,19 @@
 		font-size: 20pt;
 		font-family: "Arial", serif;
 		text-decoration: none;
+	}
+
+	/*makes the placeholder to the same color that is used for the rest of the input*/
+	::placeholder {
+    color: #AAAAAA;
+    opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color: #AAAAAA;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+	   color: #AAAAAA;
 	}
 }
