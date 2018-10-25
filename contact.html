@@ -1,8 +1,9 @@
  <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Style.css">
 	<link rel="stylesheet" type="text/css" href="PcStyle.css">
 	<link rel="stylesheet" type="text/css" href="TabletStyle.css">
 	<link rel="stylesheet" type="text/css" href="MobileStyle.css">
@@ -21,34 +22,36 @@
 
 	<nav id="navbar">
 		<article class="navlinks">
-			<a href="Index.html">HOME</a>
-			<a href="product.html">PRODUCT</a>
-			<a href="​http://www.blogger.com">BLOG</a> 
+			<a class="hidefortablet" href="Index.html">HOME</a>
+			<a class="hidefortablet" href="product.html">PRODUCT</a>
+			<a class="hideforpc" href="product.html">PRODUCTS</a>
+			<a class="" href="​http://www.blogger.com">BLOG</a> 
+			<a class="hideforpc" href="Contact.html">CONTACT</a>
 		</article>
 		<a class="icon"><i class="fa fa-bars">fff</i></a>
 	</nav>
 
-	<div class="contact">
+	<div class="headerText hidefortablet">
 		<div class="text">
 			CONTACT
 		</div>
 	</div>
 	<section class="formsection">
-		<article class="hideformobile moreinfo">
+		<article class="hideformobile hidefortablet moreinfo">
 			More information
 		</article>
 		<form action="nowhere.php" method="post" class="form">
 		<fieldset class="contactFormFieldset">
 			<label class="input" >Select topic</label>
 			<select class="dropdown centerright">
-				<option value="general">General inquiries</option>
-				<option value="press">Press relations</option>
-				<option value="recruitement">Recruitement</option>
+				<option class="selectoptions" value="general">General inquiries</option>
+				<option class="selectoptions" value="press">Press relations</option>
+				<option class="selectoptions" value="recruitement">Recruitement</option>
 			</select>
 		</fieldset>
 		<fieldset class="contactFormFieldset">
 			<input
-					class="input fullwidth test"
+					class="input fullwidth"
 					type="text"
 					name="contactFormName"
 					placeholder="Your name.."
@@ -56,7 +59,7 @@
 		</fieldset>
 		<fieldset class="contactFormFieldset">
 			<input
-					class="fullwidth input test"
+					class="fullwidth input"
 					type="email"
 					name="email"
 					placeholder="Your email.."
@@ -64,7 +67,7 @@
 		</fieldset>
 		<fieldset class="contactFormFieldset">
 			<textarea
-					class="fullwidth input test"
+					class="fullwidth input textarea"
 					rows="7"
 					cols="40"
 					name="message"
