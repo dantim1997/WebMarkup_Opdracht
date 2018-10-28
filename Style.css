@@ -14,13 +14,15 @@ body{
   display: none;
 }
 
-/* For pc and tablet*/
+/* For mobile*/
 @media only screen and (max-width: 360px) {
   .navbar a:not(:last-child) {display: none;}
-  .body{background-color: red;}
   .icon {
     float: left;
     display: block;
+    margin-left: 2px;
+    margin-top: -2px;
+    font-size: 2em;
   }
   .navlinks{
   	display: none;

@@ -1,91 +1,97 @@
  <!DOCTYPE html>
 <html>
-<head>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="Style.css">
-	<link rel="stylesheet" type="text/css" href="PcStyle.css">
-	<link rel="stylesheet" type="text/css" href="TabletStyle.css">
-	<link rel="stylesheet" type="text/css" href="MobileStyle.css">
-	<title>HTML Tutorial</title>
-</head>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="PcStyle.css">
+		<link rel="stylesheet" type="text/css" href="TabletStyle.css">
+		<link rel="stylesheet" type="text/css" href="MobileStyle.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+		<title>HTML Tutorial</title>
+	</head>
 	
-<body>
-<aside class="side">
-</aside>
+	<body>
+		<aside class="side">
+		</aside>
 
-<div class="middle">
+		<main class="middle">
 
-	<header id="header">
-		<article>COMPANY NAME</article>
-	</header>
+			<header id="header">
+				<article>COMPANY NAME</article>
+			</header>
 
-	<nav id="navbar">
-		<article class="navlinks">
-			<a class="hidefortablet" href="Index.html">HOME</a>
-			<a class="hidefortablet" href="product.html">PRODUCT</a>
-			<a class="hideforpc" href="product.html">PRODUCTS</a>
-			<a class="" href="​http://www.blogger.com">BLOG</a> 
-			<a class="hideforpc" href="Contact.html">CONTACT</a>
-		</article>
-		<a class="icon"><i class="fa fa-bars">fff</i></a>
-	</nav>
+			<nav id="navbar">
+				<article class="navlinks">
+					<a class="hidefortablet" href="Index.html">HOME</a>
+					<a class="hidefortablet" href="product.html">PRODUCT</a>
+					<a class="hideforpc" href="product.html">PRODUCTS</a>
+					<a class="" href="​http://www.blogger.com">BLOG</a> 
+					<a class="hideforpc" href="Contact.html">CONTACT</a>
+				</article>
+				<a class="icon"><i class="fa fa-bars"></i></a>
+			</nav>
 
-	<div class="headerText hidefortablet">
-		<div class="text">
-			CONTACT
-		</div>
-	</div>
-	<section class="formsection">
-		<article class="hideformobile hidefortablet moreinfo">
-			More information
-		</article>
-		<form action="nowhere.php" method="post" class="form">
-		<fieldset class="contactFormFieldset">
-			<label class="input" >Select topic</label>
-			<select class="dropdown centerright">
-				<option class="selectoptions" value="general">General inquiries</option>
-				<option class="selectoptions" value="press">Press relations</option>
-				<option class="selectoptions" value="recruitement">Recruitement</option>
-			</select>
-		</fieldset>
-		<fieldset class="contactFormFieldset">
-			<input
-					class="input fullwidth"
-					type="text"
-					name="contactFormName"
-					placeholder="Your name.."
-			/>
-		</fieldset>
-		<fieldset class="contactFormFieldset">
-			<input
-					class="fullwidth input"
-					type="email"
-					name="email"
-					placeholder="Your email.."
-			/>
-		</fieldset>
-		<fieldset class="contactFormFieldset">
-			<textarea
-					class="fullwidth input textarea"
-					rows="7"
-					cols="40"
-					name="message"
-					placeholder="Write something.."
-			></textarea>
-		</fieldset>
-		<input
-				class="submit"
-				type="submit"
-				value="Submit"
-		/>
-		</form>
-	</section>
+			<section class="headerText hidefortablet">
+				<article class="text">
+					CONTACT
+				</article>
+			</section>
 
-	<footer id="footer">
-		&copy; 2018 - Tim Gras - Inholland
-	</footer>
-</div>
-<aside class="side"></aside>
-</body>
+			<section class="formsection">
+				<article class="hideformobile hidefortablet moreinfo">
+					More information
+				</article>
+				<form action="nowhere.php" method="post" class="form">
+					<fieldset class="contactFormFieldset">
+						<label class="input" >Select topic</label>
+						<select class="dropdown centerright">
+							<option class="selectoptions" value="general">General inquiries</option>
+							<option class="selectoptions" value="press">Press relations</option>
+							<option class="selectoptions" value="recruitement">Recruitement</option>
+						</select>
+					</fieldset>
+
+					<fieldset class="contactFormFieldset">
+						<input
+								class="input fullwidth"
+								type="text"
+								name="contactFormName"
+								placeholder="Your name.."
+						/>
+					</fieldset>
+					
+					<fieldset class="contactFormFieldset">
+						<input
+								class="fullwidth input"
+								type="email"
+								name="email"
+								placeholder="Your email.."
+						/>
+					</fieldset>
+
+					<fieldset class="contactFormFieldset">
+						<textarea
+								class="fullwidth input textarea"
+								rows="7"
+								cols="40"
+								name="message"
+								placeholder="Write something.."
+						></textarea>
+					</fieldset>
+					<input
+							class="submit"
+							type="submit"
+							value="Submit"
+					/>
+				</form>
+			</section>
+
+			<footer id="footer">
+				&copy; 2018 - Tim Gras - Inholland
+			</footer>
+		</main>
+
+		<aside class="side"></aside>
+	</body>
 </html> 
