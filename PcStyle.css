@@ -1,9 +1,9 @@
 /*For pc*/
 @media only screen and (min-width: 961px) {
 	body {
-    background-image: url("img/background.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+	    background-image: url("img/background.jpeg");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
 	}
 
 	img{width: 100%;}
