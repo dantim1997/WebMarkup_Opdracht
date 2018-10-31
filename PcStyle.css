@@ -1,28 +1,31 @@
 /*For pc*/
 @media only screen and (min-width: 961px) {
 	body {
-	    background-image: url("img/background.jpeg");
-	    background-size: 100%;
-	    background-repeat: no-repeat;
+		background-image: url("img/background.jpeg");
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 
-	img{width: 100%;}
-
+	/* hide for pc layout*/
 	.hideforpc{
 		display: none;
 	}
 
+	/* sidebars */
 	.side{
 		display: block;
 		width: 25%;
 		height: 1px;
 		float: left;
 	}
-	.middle{
+
+	/* the main */
+	.main{
 		width: 50%;
 		float: left;
 	}
 
+	/* the header */
 	#header{
 		width: 100%;
 		height: 150px;
@@ -38,32 +41,39 @@
 		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	}
 
+	/* the footer */
 	#footer{
 		width: 100%;
 		height: 50px;
 		background-color: #000000;
 		color: #ffffff;
 		text-align: center;
-		padding-top: 10px;
 		font-size: 2em;
 		float: left;
 		border: solid 1px;
 		border-color: #FFFFFF;
 	}
 
-	.page {
-		float: left;
-	   	width: 100%;
-	   	height: 200px;
-	   	background-color: #2699fb;
-	   	font-size: 5em;
-	   	color: #ffffff;
-	   	padding-top: 15pt;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
-	   	vertical-align: middle;
+	/* the center p */
+	p{
+		margin-top: 5px;
 	}
 
+	/* the article with text */
+	.article {
+		float: left;
+		width: 100%;
+		height: 200px;
+		background-color: #2699fb;
+		font-size: 5em;
+		color: #ffffff;
+		padding-top: 15px;
+		text-align: center;
+		font-family: "Arial", serif;
+		vertical-align: middle;
+	}
+
+	/* the grid for images */
 	.grid{
 		float: left;
 		background-color: #ffffff;
@@ -73,18 +83,17 @@
 		border-color: #AAAAAA;
 	}
 
+	/* images layout */
 	.image{
 		float: left;
 		width: 100%;
-	   	height: 390px;
-	   	margin: auto;
-	 	background-color: #2699fb;
-	   	font-size: 63pt;
-	   	color: #ffffff;
-	   	text-align: center;
-	   	overflow: hidden;
+		height: 390px;
+		margin: auto;
+		text-align: center;
+		overflow: hidden;
 	}
 
+	/* column for grid images */
 	.gridcolumn{
 		float: left;
 		width: 290px;
@@ -95,25 +104,25 @@
 		border-color: #AAAAAA;
 	}
 
+	/* height of image */
 	.gridimage{
 		height: 100%;
 	}
 
-	.bannerimage{
-		height: 200px;
-	}
-
+	/* layout for global */
 	.formsection{
 		width: 100%;
 		background-color: #ffffff;
 		float: left;
 	}
 
+	/* Form */
 	.form{
 		width: 81%;
 		margin-left: 9%;
 	}
 
+	/* navbar */
 	#navbar{
 		height: 40px;
 		width:  100%;
@@ -127,13 +136,14 @@
 
 	}
 
+	/* for images */
 	.fullwidth{
 		width: 100%;
 		font-family: "Arial", serif;
-		font-size: 15pt;
 
 	}
 
+	/* for input dropdown */
 	.dropdown{
 		float: right;
 		width: 60%;
@@ -142,11 +152,13 @@
 		color: #AAAAAA;
 	}
 
+	/* block for input */
 	.contactFormFieldset{
 		font-family: "Arial", serif;
 		margin-top: 20px;
 	}
 
+	/* input */
 	.input{
 		color: #AAAAAA;
 		font-size: 2em;
@@ -154,23 +166,26 @@
 		border:none;
 	}
 
+	/* submit button */
 	.submit{
 		float: left;
-	   	width: 100%;
-	   	height: 75px;
-	   	background-color: #2699fb;
-	   	font-size: 25pt;
-	   	color: #ffffff;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
-	   	margin-top: 20px;
-	   	margin-bottom: 40px; 
+		width: 100%;
+		height: 75px;
+		background-color: #2699fb;
+		font-size: 2em;
+		color: #ffffff;
+		text-align: center;
+		font-family: "Arial", serif;
+		margin-top: 20px;
+		margin-bottom: 40px; 
 	}
 
+	/* textarea input */
 	.textarea{
 		height: 150px;
 	}
 
+	/* text in contact */
 	.moreinfo{
 		margin-top: 20px;
 		margin-left:5%;
@@ -179,21 +194,23 @@
 		color: #707070;
 	}
 
+	/* header for pages */
 	.headerText{
 		float: left;
-	   	width: 100%;
-	   	height: 100px;
-	   	background-color: #2699fb;
-	   	font-size: 5em;
-	   	color: #ffffff;
-	   	padding-top: 10px;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
-	   	vertical-align: middle;
-	   	border: solid 1px;
-	   	border-color: #FFFFFF;
+		width: 100%;
+		height: 100px;
+		background-color: #2699fb;
+		font-size: 5em;
+		color: #ffffff;
+		padding-top: 10px;
+		text-align: center;
+		font-family: "Arial", serif;
+		vertical-align: middle;
+		border: solid 1px;
+		border-color: #FFFFFF;
 	}
 
+	/* all images */
 	#product1{
 		background-image: url("img/product1.jpg");
 		background-position: center;
@@ -267,40 +284,40 @@
 		background-repeat: no-repeat;
 	}
 
-
+	/* difines links*/
 	a:link{
 		color: #ffffff;
-		font-size: 20pt;
+		font-size: 2.1em;
 		padding-right: 20px;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 	a:visited {
-	    color: #ffffff;
-		font-size: 20pt;
+		color: #ffffff;
+		font-size: 2.1em;
 		text-underline-position: none;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 
 	a:hover {
-	    color: #ffffff;
-		font-size: 20pt;
+		color: #ffffff;
+		font-size: 2.1em;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 
 	/*makes the placeholder to the same color that is used for the rest of the input*/
 	::placeholder {
-    color: #AAAAAA;
-    opacity: 1; /* Firefox */
+		color: #AAAAAA;
+		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder { /* Internet Explorer 10-11 */
-	   color: #AAAAAA;
+		color: #AAAAAA;
 	}
 
 	::-ms-input-placeholder { /* Microsoft Edge */
-	   color: #AAAAAA;
+		color: #AAAAAA;
 	}
 }

@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,7 +21,7 @@
 		<aside class="side"></aside>
 
 		<!-- middle of page -->
-		<main class="middle">
+		<main class="main">
 			<!-- Header of the page -->
 			<header id="header">
 				<article>COMPANY NAME</article>
@@ -36,7 +36,14 @@
 					<a class="" href="​http://www.blogger.com">BLOG</a> 
 					<a class="hideforpc" href="Contact.html">CONTACT</a>
 				</article>
-				<a class="icon"><i class="fa fa-bars"></i></a>
+				<article class="navdropdown hideforpc hidefortablet">
+					<a class="icon dropbtn"><i class="fa fa-bars"></i></a>
+					<div class="dropdown-content">
+						<a href="Index.html">HOME</a>
+						<a href="​http://www.blogger.com">BLOG</a> 
+						<a href="product.html">PRODUCTS</a>
+					</div>
+				</article>
 			</nav>
 
 			<!-- section of text -->
@@ -82,7 +89,7 @@
 					<fieldset class="contactFormFieldset">
 						<textarea
 								class="fullwidth input textarea"
-								rows="7"
+								rows="5"
 								cols="40"
 								name="message"
 								placeholder="Write something.."

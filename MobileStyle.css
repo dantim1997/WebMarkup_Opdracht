@@ -1,16 +1,15 @@
 /*For mobile*/
 @media only screen and (max-width: 360px) {
-    body {
-    }
+	/* body */
+	body {
+	}
 
-    img{
-    	width: 100%;
-    }
-
-    .hideformobile{
-    	display: none;
-    }
-    
+	/* hide for tablet */
+	.hideformobile{
+		display: none;
+	}
+	
+	/* the header */
 	#header{
 		width: 100%;
 		height: 55px;
@@ -25,6 +24,7 @@
 		padding-top: 15px;
 	}
 
+	/* the footer */
 	#footer{
 		float: left;
 		width: 100%;
@@ -37,29 +37,32 @@
 		font-size: 1.2em;
 	}
 
-	.page {
+	/* the article with text */
+	.article {
 		float: left;
 		width: 100%;
-		height: 70px;
+		height: 80px;
+		padding-top: 10px;
 		background-color: #2699fb;
-		font-size: 20pt;
+		font-size: 2em;
 		color: #ffffff;
 		text-align: center;
 		font-family: "Arial", serif;
 		vertical-align: middle;
 	}
 	
+	/* images layout */
 	.image{
 		float: left;
 		width: 100%;
-	   	height: 140px;
-	   	font-size: 63pt;
-	   	color: #ffffff;
-	   	text-align: center;
-	   	overflow: hidden;
-	   	border: solid 3px;
+		height: 140px;
+		color: #ffffff;
+		text-align: center;
+		overflow: hidden;
+		border: solid 3px;
 	}
 
+	/* height of image */
 	.gridimage{
 		float: left;
 		width: 90%;
@@ -68,14 +71,7 @@
 		margin-left: 5%;
 	}
 
-	.bannerimage{
-		height: 100px;
-	}
-
-	.imagefullwidth{
-		width: 100%;
-	}
-
+	/* navbar */
 	#navbar{
 		height: 30px;
 		width:  100%;
@@ -87,24 +83,27 @@
 
 	}
 
+	/* layout for global */
 	.formsection{
 		width: 100%;
 		background-color: #ffffff;
 		float: left;
 	}
 
+	/* Form */
 	.form{
 		width: 80%;
 		margin-top: 30px;
 		margin-left: 10%;
 	}
 
+	/* for images */
 	.fullwidth{
 		width: 100%;
 		font-family: "Arial", serif;
-		font-size: 10pt;
 	}
 
+	/* for input dropdown */
 	.dropdown{
 		float: left;
 		width: 100%;
@@ -114,47 +113,53 @@
 		color: #707070;
 	}
 
+	/* center dropdwon right */
 	.centerright{
 		float: left;
 		width: 100%;
 	}
 
+	/* block for input */
 	.contactFormFieldset{
 		color: #707070;
-		font-size: 10pt;
 		margin-top: 15px;
 	}
 
+	/* input */
 	.input{
 		color: #AAAAAA;
 		border:none;
+		font-size: 1em;
 	}
 
+	/* submit button */
 	.submit{
 		float: left;
-	   	width: 100%;
-	   	height: 30px;
-	   	background-color: #2699fb;
-	   	font-size: 15pt;
-	   	color: #ffffff;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
-	   	margin-top: 10px;
-	   	margin-bottom: 10px; 
+		width: 100%;
+		height: 30px;
+		background-color: #2699fb;
+		font-size: 1.5em;
+		color: #ffffff;
+		text-align: center;
+		font-family: "Arial", serif;
+		margin-top: 10px;
+		margin-bottom: 10px; 
 	}
 
+	/* header for pages */
 	.headerText{
 		float: left;
-	   	width: 100%;
-	   	min-height: 20px;
-	   	background-color: #2699fb;
-	   	font-size: 2em;
-	   	color: #ffffff;
-	   	padding-top: 10px;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
+		width: 100%;
+		min-height: 20px;
+		background-color: #2699fb;
+		font-size: 2em;
+		color: #ffffff;
+		padding-top: 10px;
+		text-align: center;
+		font-family: "Arial", serif;
 	}
 
+	/* all images */
 	#product1{
 		background-image: url("img/product1.jpg");
 		background-position: center;

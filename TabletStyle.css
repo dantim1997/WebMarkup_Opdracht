@@ -1,17 +1,20 @@
-
 /*For tablet*/
 @media only screen and (max-width: 960px) and ( min-width: 361px) {
-    body {
-    }
+	/* body */
+	body {
+	}
 
-    img{
-    	height: 100%;
-    }
+	/* the center p */
+	p{
+		margin-top: 5px;
+	}
 
-    .hidefortablet{
-    	display: none;
-    }
-    
+	/* hide for tablet */
+	.hidefortablet{
+		display: none;
+	}
+	
+	/* the header */
 	#header{
 		width: 100%;
 		height: 100px;
@@ -29,10 +32,11 @@
 		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	}
 
+	/* the footer */
 	#footer{
 		float: left;
 		width: 100%;
-		height: 30pt;
+		height: 30px;
 		margin-top: 20px;
 		background-color: #000000;
 		color: #ffffff;
@@ -40,20 +44,20 @@
 		font-size: 1.5em;
 	}
 
-	.page {
+	/* the article with text */
+	.article {
 		float: left;
-	   width: 100%;
-	   height: 150px;
-	   background-color: #2699fb;
-	   font-size: 40pt;
-	   color: #ffffff;
-	   text-align: center;
-	   font-family: "Arial", serif;
-	   vertical-align: middle;
-	   border:solid 1px;
-	   border-color: #FFFFFF;
+		width: 100%;
+		height: 120px;
+		background-color: #2699fb;
+		font-size: 3em;
+		color: #ffffff;
+		text-align: center;
+		font-family: "Arial", serif;
+		vertical-align: middle;
 	}
-	
+
+	/* column for grid images */
 	.gridcolumn{
 		float: left;
 		width: 47%;
@@ -64,28 +68,31 @@
 		border-color: #AAAAAA;
 	}
 
+	/* height of image */
 	.gridimage{
 		height: 100%;
 	}
 
+	/* images layout */
 	.image{
 		float: left;
 		width: 44%;
-	   	height: 150pt;
-	   	border: solid 5px;
-	   	border-color: #FFFFFF;
+		height: 150px;
+		border: solid 5px;
+		border-color: #FFFFFF;
 		
 	}
+
+	/* for full with layout */
 	.fullimagecontainer{
 		float: left;
 		width: 100%;
-	   	height: 200pt;
-	   	margin: auto;
-	}
-	.imagefullwidth{
-		width: 100%;
+		height: 240px;
+		margin: auto;
 	}
 
+
+	/* layout for global */
 	.formsection{
 		width: 100%;
 		background-color: #ffffff;
@@ -93,17 +100,20 @@
 		margin-top: 50px;
 	}
 
+	/* Form */
 	.form{
 		width: 81%;
 		margin-left: 9%;
 	}
 
+	/* for images */
 	.fullwidth{
 		width: 100%;
 		font-family: "Arial", serif;
 
 	}
 
+	/* for input dropdown */
 	.dropdown{
 		float: left;
 		width: 100%;
@@ -113,15 +123,18 @@
 		color: #707070;
 	}
 
+	/* dropdown text */
 	.selectoptions{
 		font-size: 23px;
 	}
 
+	/* block for input */
 	.contactFormFieldset{
 		font-family: "Arial", serif;
 		margin-top: 20px;
 	}
 
+	/* input */
 	.input{
 		color: #AAAAAA;
 		font-size: 2em;
@@ -129,22 +142,25 @@
 		border:none;
 	}
 
+	/* textarea input */
 	.textarea{
 		height: 150px;
 	}
 
+	/* submit button */
 	.submit{
 		float: left;
-	   	width: 100%;
-	   	height: 50px;
-	   	background-color: #2699fb;
-	   	font-size: 25pt;
-	   	color: #ffffff;
-	   	text-align: center;
-	   	font-family: "Arial", serif;
-	   	margin-top: 20px;
+		width: 100%;
+		height: 50px;
+		background-color: #2699fb;
+		font-size: 2em;
+		color: #ffffff;
+		text-align: center;
+		font-family: "Arial", serif;
+		margin-top: 20px;
 	}
 
+	/* navbar */
 	#navbar{
 		height: 30px;
 		width:  100%;
@@ -158,6 +174,7 @@
 
 	}
 
+	/* all images */
 	#product1{
 		background-image: url("img/product1.jpg");
 		background-position: center;
@@ -231,40 +248,41 @@
 		background-repeat: no-repeat;
 	}
 
+	/* difines links*/
 	a:link{
 		color: #ffffff;
-		font-size: 15pt;
+		font-size: 1.2em;
 		padding-right: 15px;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 	a:visited {
-	    color: #ffffff;
-		font-size: 15pt;
+		color: #ffffff;
+		font-size: 1.2em;
 		text-underline-position: none;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 
 	a:hover {
-	    color: #ffffff;
-		font-size: 15pt;
+		color: #ffffff;
+		font-size: 1.2em;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 
 	/*makes the placeholder to the same color that is used for the rest of the input*/
 	::placeholder {
-    color: #AAAAAA;
-    opacity: 1; /* Firefox */
+		color: #AAAAAA;
+		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder { /* Internet Explorer 10-11 */
-	   color: #AAAAAA;
+		color: #AAAAAA;
 	}
 
 	::-ms-input-placeholder { /* Microsoft Edge */
-	   color: #AAAAAA;
+		color: #AAAAAA;
 	}
 }
 
