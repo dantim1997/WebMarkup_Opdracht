@@ -1,103 +1,68 @@
-/*For pc*/
-@media only screen and (min-width: 961px) {
+/*For tablet*/
+@media only screen and (max-width: 960px) and ( min-width: 361px) {
+	/* body */
 	body {
-		background-image: url("img/background.jpeg");
-		background-size: 100%;
-		background-repeat: no-repeat;
 	}
 
-	/* hide for pc layout*/
-	.hideforpc{
+	/* the center p */
+	p{
+		padding-top: 2px;
+		margin-top: 0px;
+	}
+
+	/* hide for tablet */
+	.hidefortablet{
 		display: none;
 	}
-
-	/* sidebars */
-	.side{
-		display: block;
-		width: 25%;
-		height: 1px;
-		float: left;
-	}
-
-	/* the main */
-	.main{
-		width: 50%;
-		float: left;
-	}
-
+	
 	/* the header */
 	#header{
 		width: 100%;
-		height: 150px;
+		height: 100px;
 		margin: auto;
-		background-image: url("img/companylogoBG.jpg");
+		background-image: url("../img/companylogoBG.jpg");
 		background-position: center;
 		background-size: 100%;
-		font-size: 5em;
+		font-size: 4em;
 		color: #ffffff;
 		text-align: center;
-		padding-top: 50px;
+		padding-top: 30px;
+		color: #ffffff;
+		text-align: center;
 		font-family: "Berlin Sans FB", serif;
 		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	}
 
 	/* the footer */
 	#footer{
+		float: left;
 		width: 100%;
-		height: 50px;
+		height: 30px;
+		margin-top: 20px;
 		background-color: #000000;
 		color: #ffffff;
 		text-align: center;
-		font-size: 2em;
-		float: left;
-		border: solid 1px;
-		border-color: #FFFFFF;
-	}
-
-	/* the center p */
-	p{
-		margin-top: 5px;
+		font-size: 1.5em;
 	}
 
 	/* the article with text */
 	.article {
 		float: left;
 		width: 100%;
-		height: 200px;
+		height: 120px;
 		background-color: #2699fb;
-		font-size: 5em;
+		font-size: 3em;
 		color: #ffffff;
-		padding-top: 15px;
 		text-align: center;
 		font-family: "Arial", serif;
 		vertical-align: middle;
 	}
 
-	/* the grid for images */
-	.grid{
-		float: left;
-		background-color: #ffffff;
-		width: 100%;
-		height: 860px;
-		border: solid 1px;
-		border-color: #AAAAAA;
-	}
-
-	/* images layout */
-	.image{
-		float: left;
-		width: 100%;
-		height: 390px;
-		margin: auto;
-		text-align: center;
-		overflow: hidden;
-	}
-
 	/* column for grid images */
 	.gridcolumn{
 		float: left;
-		width: 290px;
-		height: 200px;
+		width: 47%;
+		height: 160px;
 		margin-top: 10px;
 		margin-left: 10px;
 		border: solid 1px;
@@ -109,31 +74,37 @@
 		height: 100%;
 	}
 
+	/* images layout */
+	.image{
+		float: left;
+		width: 44%;
+		height: 150px;
+		border: solid 5px;
+		border-color: #FFFFFF;
+		
+	}
+
+	/* for full with layout */
+	.fullimagecontainer{
+		float: left;
+		width: 100%;
+		height: 240px;
+		margin: auto;
+	}
+
+
 	/* layout for global */
 	.formsection{
 		width: 100%;
 		background-color: #ffffff;
 		float: left;
+		margin-top: 50px;
 	}
 
 	/* Form */
 	.form{
 		width: 81%;
 		margin-left: 9%;
-	}
-
-	/* navbar */
-	#navbar{
-		height: 40px;
-		width:  100%;
-		margin:  auto;
-		padding-top: 10px;
-		background-color: #707070; 
-		color: #ffffff;
-		text-align: center;
-		border: solid 1px;
-		border-color: #ffffff;
-
 	}
 
 	/* for images */
@@ -145,11 +116,17 @@
 
 	/* for input dropdown */
 	.dropdown{
-		float: right;
-		width: 60%;
-		font-size: 2em;
+		float: left;
+		width: 100%;
+		font-size: 1.5em;
 		font-family: "Arial", serif;
-		color: #AAAAAA;
+		margin-top: 20px;
+		color: #707070;
+	}
+
+	/* dropdown text */
+	.selectoptions{
+		font-size: 23px;
 	}
 
 	/* block for input */
@@ -161,23 +138,9 @@
 	/* input */
 	.input{
 		color: #AAAAAA;
-		font-size: 2em;
+		font-size: 1.5em;
 		font-family: "Arial", serif;
 		border:none;
-	}
-
-	/* submit button */
-	.submit{
-		float: left;
-		width: 100%;
-		height: 75px;
-		background-color: #2699fb;
-		font-size: 2em;
-		color: #ffffff;
-		text-align: center;
-		font-family: "Arial", serif;
-		margin-top: 20px;
-		margin-bottom: 40px; 
 	}
 
 	/* textarea input */
@@ -185,116 +148,137 @@
 		height: 150px;
 	}
 
-	/* text in contact */
-	.moreinfo{
-		margin-top: 20px;
-		margin-left:5%;
-		margin-bottom: 20px;
-		font-size: 2em;
-		color: #707070;
-	}
-
-	/* header for pages */
-	.headerText{
+	/* submit button */
+	.submit{
 		float: left;
 		width: 100%;
-		height: 100px;
+		height: 50px;
 		background-color: #2699fb;
-		font-size: 5em;
+		font-size: 2em;
 		color: #ffffff;
-		padding-top: 10px;
 		text-align: center;
 		font-family: "Arial", serif;
-		vertical-align: middle;
-		border: solid 1px;
-		border-color: #FFFFFF;
+		margin-top: 20px;
+	}
+
+	/* Makes the navbar */
+	ul{
+	    font-family: Arial;
+	    height: 25px;
+	    font-size: 0.9em;
+	    list-style-type: none;
+	    background-color: #707070;
+	    width: fill;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden; 
+	    border-style: solid;
+	    border-color: #ffffff;
+	    border-width: 1px;
+	    text-align: center;
+	}
+
+	/* for each nav item */
+	li{
+	    float: center;
+	    vertical-align: center;
+	    display: inline-block;
+	}
+
+	/* for the links in the nav */
+	li a {
+	    display: block;
+	    color: #ffffff;
+	    text-align: center;
+	    padding: 3px 0px;
+	    text-decoration: none;
 	}
 
 	/* all images */
 	#product1{
-		background-image: url("img/product1.jpg");
+		background-image: url("../img/product1.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product2{
-		background-image: url("img/product2.jpg");
+		background-image: url("../img/product2.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product3{
-		background-image: url("img/product3.jpg");
+		background-image: url("../img/product3.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product4{
-		background-image: url("img/product4.jpg");
+		background-image: url("../img/product4.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product5{
-		background-image: url("img/product5.jpg");
+		background-image: url("../img/product5.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product6{
-		background-image: url("img/product6.jpg");
+		background-image: url("../img/product6.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product7{
-		background-image: url("img/product7.jpg");
+		background-image: url("../img/product7.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product8{
-		background-image: url("img/product8.jpg");
+		background-image: url("../img/product8.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product9{
-		background-image: url("img/product9.jpg");
+		background-image: url("../img/product9.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product10{
-		background-image: url("img/product10.jpg");
+		background-image: url("../img/product10.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product11{
-		background-image: url("img/product11.jpg");
+		background-image: url("../img/product11.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product12{
-		background-image: url("img/product12.jpg");
+		background-image: url("../img/product12.jpg");
 		background-position: center;
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
 	/* difines links*/
 	a:link{
 		color: #ffffff;
-		font-size: 2.1em;
-		padding-right: 20px;
+		font-size: 1.2em;
+		padding-right: 15px;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
 	a:visited {
 		color: #ffffff;
-		font-size: 2.1em;
+		font-size: 1.2em;
 		text-underline-position: none;
 		font-family: "Arial", serif;
 		text-decoration: none;
@@ -302,7 +286,7 @@
 
 	a:hover {
 		color: #ffffff;
-		font-size: 2.1em;
+		font-size: 1.2em;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}
@@ -321,3 +305,5 @@
 		color: #AAAAAA;
 	}
 }
+
+

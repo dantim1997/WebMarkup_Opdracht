@@ -8,10 +8,10 @@
 		<meta name="keywords" content="HTML, CSS">
 
 		<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
-		<link rel="stylesheet" type="text/css" href="Style.css">
-		<link rel="stylesheet" type="text/css" href="PcStyle.css">
-		<link rel="stylesheet" type="text/css" href="TabletStyle.css">
-		<link rel="stylesheet" type="text/css" href="MobileStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/Style.css">
+		<link rel="stylesheet" type="text/css" href="css/PcStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/TabletStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/MobileStyle.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
 		<title>INF1sA Tim Gras 630259</title>
 	</head>
@@ -29,19 +29,20 @@
 
 			<!-- navbar of the page -->
 			<nav id="navbar">
-				<article class="navlinks">
-					<a class="hidefortablet" href="Index.html">HOME</a>
-					<a class="hideforpc" href="products.html">PRODUCTS</a>
-					<a href="​http://www.blogger.com">BLOG</a> 
-					<a href="contact.html">CONTACT</a>
-				</article>
+				<ul class="hideformobile">
+					<li class="hideformobile hidefortablet"><a href="Index.html">HOME</a></li>
+					<li class="hideformobile hideforpc"><a href="product.html">PRODUCTS</a></li>
+					<li class="hideformobile"><a href="​http://www.blogger.com">BLOG</a> </li>
+					<li class="hideformobile"><a href="contact.html">CONTACT</a></li>
+				</ul>
+				<!-- for mobile -->
 				<article class="navdropdown hideforpc hidefortablet">
 					<a class="icon dropbtn"><i class="fa fa-bars"></i></a>
-					<div class="dropdown-content">
+					<section class="dropdown-content">
 						<a href="Index.html">HOME</a>
 						<a href="​http://www.blogger.com">BLOG</a> 
 						<a href="contact.html">CONTACT</a>
-					</div>
+					</section>
 				</article>
 			</nav>
 
@@ -121,7 +122,7 @@
 
 			<!-- Footer of the page -->
 			<footer id="footer">
-				<article>&copy; 2018 - Tim Gras - Inholland</article>
+				<p>&copy; 2018 - Tim Gras - Inholland</p>
 			</footer>
 		</main>
 		

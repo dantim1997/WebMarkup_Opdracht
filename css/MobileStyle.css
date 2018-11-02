@@ -4,6 +4,11 @@
 	body {
 	}
 
+	p{
+		padding-top: 2px;
+		margin-top: 0px;
+	}
+
 	/* hide for tablet */
 	.hideformobile{
 		display: none;
@@ -14,7 +19,7 @@
 		width: 100%;
 		height: 55px;
 		margin: auto;
-		background-image: url("img/companylogoBG.jpg");
+		background-image: url("../img/companylogoBG.jpg");
 		background-position: center;
 		background-size: 100%;
 		font-size: 2.2em;
@@ -71,16 +76,20 @@
 		margin-left: 5%;
 	}
 
-	/* navbar */
-	#navbar{
-		height: 30px;
-		width:  100%;
-		margin:  auto;
-		background-color: #707070; 
-		color: #ffffff;
-		border: solid 1px;
-		border-color: #ffffff;
-
+	.navdropdown{
+		font-family: Arial;
+	    font-size: 0.8em;
+	    list-style-type: none;
+	    background-color: #707070;
+	    width: fill;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden; 
+	    border-style: solid;
+	    border-color: #ffffff;
+	    border-width: 1px;
+	    text-align: center;
+	    color: #FFFFFF;
 	}
 
 	/* layout for global */
@@ -161,73 +170,73 @@
 
 	/* all images */
 	#product1{
-		background-image: url("img/product1.jpg");
+		background-image: url("../img/product1.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product2{
-		background-image: url("img/product2.jpg");
+		background-image: url("../img/product2.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product3{
-		background-image: url("img/product3.jpg");
+		background-image: url("../img/product3.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product4{
-		background-image: url("img/product4.jpg");
+		background-image: url("../img/product4.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product5{
-		background-image: url("img/product5.jpg");
+		background-image: url("../img/product5.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product6{
-		background-image: url("img/product6.jpg");
+		background-image: url("../img/product6.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product7{
-		background-image: url("img/product7.jpg");
+		background-image: url("../img/product7.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product8{
-		background-image: url("img/product8.jpg");
+		background-image: url("../img/product8.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product9{
-		background-image: url("img/product9.jpg");
+		background-image: url("../img/product9.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product10{
-		background-image: url("img/product10.jpg");
+		background-image: url("../img/product10.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product11{
-		background-image: url("img/product11.jpg");
+		background-image: url("../img/product11.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	#product12{
-		background-image: url("img/product12.jpg");
+		background-image: url("../img/product12.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
