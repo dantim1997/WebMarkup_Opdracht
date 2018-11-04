@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /inholland
+
+Sitemap: https://dantim1997.github.io/WebMarkup_Opdracht//sitemap.xml

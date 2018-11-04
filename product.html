@@ -4,10 +4,10 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset="UTF-8">
 		<meta name="author" content="Tim Gras">
-		<meta name="description" content="WebMarkup eind opdracht">
-		<meta name="keywords" content="HTML, CSS">
+		<meta name="description" content="This website is for the WebMarkup and is an games entertainment website">
+		<meta name="keywords" content="games, Mario, console, mobile, beerpong, dart, rubiccube, poker">
 
-		<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+		<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16 32x32 64x64">
 		<link rel="stylesheet" type="text/css" href="css/Style.css">
 		<link rel="stylesheet" type="text/css" href="css/PcStyle.css">
 		<link rel="stylesheet" type="text/css" href="css/TabletStyle.css">
@@ -17,6 +17,12 @@
 	</head>
 		
 	<body>
+		<!-- makes the background video -->
+		<video autoplay muted loop id="backgroundvideo" class="hidefortablet hideformobile">
+			<source src="movie/background.mp4" type="video/mp4">
+			Your browser does not support HTML5 video.
+		</video>
+
 		<!-- leftSide space -->
 		<aside class="side"></aside>
 
@@ -121,7 +127,7 @@
 			</section>
 
 			<!-- Footer of the page -->
-			<footer id="footer">
+			<footer id="footer" class="margintop">
 				<p>&copy; 2018 - Tim Gras - Inholland</p>
 			</footer>
 		</main>

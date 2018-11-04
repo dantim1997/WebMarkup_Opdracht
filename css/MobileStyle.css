@@ -1,9 +1,5 @@
 /*For mobile*/
 @media only screen and (max-width: 360px) {
-	/* body */
-	body {
-	}
-
 	p{
 		padding-top: 2px;
 		margin-top: 0px;
@@ -34,7 +30,6 @@
 		float: left;
 		width: 100%;
 		height: 30px;
-		margin: auto;
 		background-color: #000000;
 		color: #ffffff;
 		text-align: center;
@@ -71,7 +66,7 @@
 	.gridimage{
 		float: left;
 		width: 90%;
-		height: 200px;
+		height: 190px;
 		margin-top: 10px;
 		margin-left: 5%;
 	}
@@ -87,16 +82,19 @@
 	    overflow: hidden; 
 	    border-style: solid;
 	    border-color: #ffffff;
-	    border-width: 1px;
+	    border-width: 3px;
 	    text-align: center;
 	    color: #FFFFFF;
 	}
 
 	/* layout for global */
 	.formsection{
-		width: 100%;
+		width: 99.5%;
 		background-color: #ffffff;
 		float: left;
+		border: solid 1px;
+		border-right: solid 1px;
+		border-color: #AAAAAA;
 	}
 
 	/* Form */
@@ -126,6 +124,10 @@
 	.centerright{
 		float: left;
 		width: 100%;
+	}
+
+	.margintop{
+		margin-top: 20px;
 	}
 
 	/* block for input */
@@ -167,80 +169,3 @@
 		text-align: center;
 		font-family: "Arial", serif;
 	}
-
-	/* all images */
-	#product1{
-		background-image: url("../img/product1.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product2{
-		background-image: url("../img/product2.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product3{
-		background-image: url("../img/product3.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product4{
-		background-image: url("../img/product4.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product5{
-		background-image: url("../img/product5.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product6{
-		background-image: url("../img/product6.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product7{
-		background-image: url("../img/product7.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product8{
-		background-image: url("../img/product8.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product9{
-		background-image: url("../img/product9.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product10{
-		background-image: url("../img/product10.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product11{
-		background-image: url("../img/product11.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	#product12{
-		background-image: url("../img/product12.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-}
-
-
