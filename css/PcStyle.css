@@ -1,5 +1,10 @@
 /*For pc*/
 @media only screen and (min-width: 961px) {
+	@font-face {
+    font-family: berlinsans;
+    src: url("../fonts/BerlinSansFBRegular.ttf");
+	}
+
 	body {
 		background-image: url("../img/background.jpeg");
 		background-size: 100%;
@@ -38,7 +43,7 @@
 		color: #ffffff;
 		text-align: center;
 		padding-top: 50px;
-		font-family: "Berlin Sans FB", serif;
+		font-family: "berlinsans", serif;
 		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	}
 
@@ -84,6 +89,9 @@
 		border: solid 1px;
 		border-top: none;
 		border-color: #AAAAAA;
+		-webkit-flex: 1;  /* Safari 6.1+ */
+		-ms-flex: 1;  /* IE 10 */    
+		flex: 1;
 	}
 
 	/* images layout */
@@ -131,7 +139,7 @@
 
 	/* Makes the navbar */
 	ul{
-	    font-family: Arial;
+	    font-family: "Arial", serif;
 	    font-size: 0.8em;
 	    list-style-type: none;
 	    background-color: #707070;

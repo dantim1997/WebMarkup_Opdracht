@@ -1,5 +1,9 @@
 /*For tablet*/
 @media only screen and (max-width: 960px) and ( min-width: 361px) {
+	@font-face {
+    font-family: berlinsans;
+    src: url("../fonts/BerlinSansFBRegular.ttf");
+	}
 
 	/* the center p */
 	p{
@@ -26,7 +30,7 @@
 		padding-top: 30px;
 		color: #ffffff;
 		text-align: center;
-		font-family: "Berlin Sans FB", serif;
+		font-family: "berlinsans", serif;
 		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	}
 
@@ -58,6 +62,9 @@
 	/* Grid */
 	.grid{
 		height: auto;
+		-webkit-flex: 1;  /* Safari 6.1+ */
+		-ms-flex: 1;  /* IE 10 */    
+		flex: 1;
 	}
 
 	/* column for grid images */
@@ -177,7 +184,7 @@
 
 	/* Makes the navbar */
 	ul{
-	    font-family: Arial;
+	    font-family: "Arial", serif;
 	    height: 25px;
 	    font-size: 0.9em;
 	    list-style-type: none;
