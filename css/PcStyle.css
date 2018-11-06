@@ -1,10 +1,5 @@
 /*For pc*/
 @media only screen and (min-width: 961px) {
-	@font-face {
-    font-family: berlinsans;
-    src: url("../fonts/BerlinSansFBRegular.ttf");
-	}
-
 	body {
 		background-image: url("../img/background.jpeg");
 		background-size: 100%;
@@ -83,6 +78,7 @@
 	/* the grid for images */
 	.grid{
 		float: left;
+		padding-top: 20px;
 		background-color: #ffffff;
 		width: 99.8%;
 		height: 910px;
@@ -139,34 +135,34 @@
 
 	/* Makes the navbar */
 	ul{
-	    font-family: "Arial", serif;
-	    font-size: 0.8em;
-	    list-style-type: none;
-	    background-color: #707070;
-	    width: fill;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden; 
-	    border-style: solid;
-	    border-color: #ffffff;
-	    border-width: 1px;
-	    text-align: center;
+		font-family: "Arial", serif;
+		font-size: 0.8em;
+		list-style-type: none;
+		background-color: #707070;
+		width: fill;
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+		text-align: center;
 	}
 
 	/* for each nav item */
 	li{
-	    float: center;
-	    vertical-align: center;
-	    display: inline-block;
+		float: center;
+		vertical-align: center;
+		display: inline-block;
 	}
 
 	/* for the links in the nav */
 	li a {
-	    display: block;
-	    color: #ffffff;
-	    text-align: center;
-	    padding: 12px 16px;
-	    text-decoration: none;
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		padding: 12px 16px;
+		text-decoration: none;
 	}
 
 	/* for images */

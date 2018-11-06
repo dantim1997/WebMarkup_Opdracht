@@ -1,10 +1,5 @@
 /*For tablet*/
 @media only screen and (max-width: 960px) and ( min-width: 361px) {
-	@font-face {
-    font-family: berlinsans;
-    src: url("../fonts/BerlinSansFBRegular.ttf");
-	}
-
 	/* the center p */
 	p{
 		padding-top: 2px;
@@ -90,14 +85,14 @@
 		height: 150px;
 		border: solid 5px;
 		border-color: #FFFFFF;
-		
 	}
 
 	/* images layout */
 	.image{
 		float: left;
-		width: 44%;
-		height: 150px;
+		width: 48%;
+		height: 250px;
+		overflow: hidden;
 		
 	}
 
@@ -117,7 +112,7 @@
 	/* layout for global */
 	.formsection{
 		width: 100%;
-		background-color: #ffffff;
+		background-color: #f5f5f5;
 		float: left;
 		margin-top: 50px;
 	}
@@ -184,35 +179,35 @@
 
 	/* Makes the navbar */
 	ul{
-	    font-family: "Arial", serif;
-	    height: 25px;
-	    font-size: 0.9em;
-	    list-style-type: none;
-	    background-color: #707070;
-	    width: fill;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden; 
-	    border-style: solid;
-	    border-color: #ffffff;
-	    border-width: 1px;
-	    text-align: center;
+		font-family: "Arial", serif;
+		height: 25px;
+		font-size: 0.9em;
+		list-style-type: none;
+		background-color: #707070;
+		width: fill;
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 
+		border-style: solid;
+		border-color: #ffffff;
+		border-width: 1px;
+		text-align: center;
 	}
 
 	/* for each nav item */
 	li{
-	    float: center;
-	    vertical-align: center;
-	    display: inline-block;
+		float: center;
+		vertical-align: center;
+		display: inline-block;
 	}
 
 	/* for the links in the nav */
 	li a {
-	    display: block;
-	    color: #ffffff;
-	    text-align: center;
-	    padding: 3px 0px;
-	    text-decoration: none;
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		padding: 3px 0px;
+		text-decoration: none;
 	}
 
 	/* difines links*/
@@ -252,5 +247,3 @@
 		color: #AAAAAA;
 	}
 }
-
-
