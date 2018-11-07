@@ -6,6 +6,20 @@
 		background-repeat: no-repeat;
 	}
 
+	h1{
+		letter-spacing: 5px;
+		margin: 0px;
+		font-size: 1em;
+		padding-top: 0px;
+	}
+
+	h2{
+		margin: 0px;
+		font-size: 1.03em;
+		padding-top: 0px;
+		font-weight: normal;
+	}
+
 	/* hide for pc layout*/
 	.hideforpc{
 		display: none;
