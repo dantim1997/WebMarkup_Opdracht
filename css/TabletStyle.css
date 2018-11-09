@@ -90,6 +90,7 @@
 	/* height of image */
 	.gridimage{
 		height: 100%;
+		overflow: hidden;
 	}
 
 	/* images layout */
@@ -257,5 +258,80 @@
 
 	::-ms-input-placeholder { /* Microsoft Edge */
 		color: #AAAAAA;
+	}
+
+
+	/* images for index */
+	#indexproduct3{
+		height: 100%;
+		margin-left: -140px;
+	}
+	#indexproduct8{
+		height: 100%;
+		margin-top: 0px;
+	}
+	#indexproduct9{
+		width: 100%;
+		height: 100%;
+		margin-top: 0px;
+	}
+
+	/* images for product */
+	#product1{
+		width: 100%;
+		margin-top:-30px;
+	}
+	#product2{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product3{
+		height: 100%;
+		margin-left: -30px;
+		margin-top: 0px;
+	}
+	#product4{
+		width: 100%;
+		margin-top:-20px;
+	}
+	#product5{
+		width: 100%;
+		margin-top:-10px;
+	}
+	#product6{
+		width: 100%;
+		margin-top:-20px;
+	}
+	#product7{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product8{
+		width: 100%;
+		margin-top:-30px;
+	}
+	#product9{
+		margin-top:0px;
+		width: 100%;
+		height: 100%;
+		margin-top: 0px;
+	}
+	#product10{
+		margin-top:0px;
+		height: 100%;
+		margin-top: 0px;
+	}
+	#product11{
+		margin-top:0px;
+		width: 100%;
+		margin-top: -100px;
+	}
+	#product12{
+		margin-top:0px;
+		width: 100%;
+		height: 100%;
+		margin-top: 0px;
 	}
 }

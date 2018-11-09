@@ -114,6 +114,7 @@
 		overflow: hidden;
 	}
 
+
 	/* column for grid images */
 	.gridcolumn{
 		float: left;
@@ -128,6 +129,7 @@
 	/* height of image */
 	.gridimage{
 		height: 100%;
+		overflow: hidden;
 	}
 
 	/* layout for global */
@@ -289,5 +291,86 @@
 
 	::-ms-input-placeholder { /* Microsoft Edge */
 		color: #AAAAAA;
+	}
+
+	/* images for index */
+	#indexproduct3{
+	width: 100%;
+	margin-top: -40px;
+	}
+	#indexproduct6{
+	width: 100%;
+	margin-top: -125px;
+	}
+	#indexproduct8{
+		width: 100%;
+		margin-top: -160px;
+	}
+	#indexproduct9{
+		width: 100%;
+		margin-top: -100px;
+	}
+
+	/* images for product */
+	#product1{
+		width: 100%;
+		margin-top:-10px;
+	}
+	#product2{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product3{
+		height: 100%;
+		margin-left: -65px;
+		margin-top: 0px;
+	}
+	#product4{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product5{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product6{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product7{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product8{
+		width: 100%;
+		height: 100%;
+		margin-top:0px;
+	}
+	#product9{
+		margin-top:0px;
+		width: 100%;
+		height: 100%;
+		margin-top: 0px;
+	}
+	#product10{
+		margin-top:0px;
+		height: 100%;
+		margin-top: 0px;
+	}
+	#product11{
+		margin-top:0px;
+		width: 100%;
+		margin-top: -100px;
+	}
+	#product12{
+		margin-top:0px;
+		width: 100%;
+		height: 100%;
+		margin-top: 0px;
 	}
 }
