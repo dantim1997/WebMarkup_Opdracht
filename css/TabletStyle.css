@@ -209,7 +209,6 @@
 
 	/* for each nav item */
 	li{
-		float: center;
 		vertical-align: center;
 		display: inline-block;
 	}
@@ -234,7 +233,6 @@
 	a:visited {
 		color: #ffffff;
 		font-size: 1.2em;
-		text-underline-position: none;
 		font-family: "Arial", serif;
 		text-decoration: none;
 	}

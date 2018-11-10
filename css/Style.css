@@ -23,7 +23,7 @@ body{
 /* For mobile nav bar*/
 @media only screen and (max-width: 360px) {
 	.navbar a:not(:last-child) {display: none;}
-
+	
 	.icon {
 		float: left;
 		display: block;
@@ -71,7 +71,6 @@ body{
 	.navdropdown:hover .dropdown-content {
 		display: block;
 	}
-
 }
 
 #backgroundvideo {
