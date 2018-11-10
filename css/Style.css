@@ -20,7 +20,7 @@ body{
 	display: none;
 }
 
-/* For mobile*/
+/* For mobile nav bar*/
 @media only screen and (max-width: 360px) {
 	.navbar a:not(:last-child) {display: none;}
 
@@ -30,7 +30,17 @@ body{
 		margin-left: 2px;
 		margin-top: -2px;
 		font-size: 2em;
+		padding-top: 4px;
 	}
+
+	.iconbar{
+		background-color: #FFFFFF;
+		display: block;
+		width: 30px;
+		height: 7px;
+		margin-bottom: 3px;	
+	}
+
 	.navlinks{
 		display: none;
 	}
